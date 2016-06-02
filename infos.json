@@ -1,0 +1,10 @@
+{
+  "displayName" : "Custom App",
+  "author" : ["Valentin DEVILLE"],
+  "contributor" : [],
+  "supportedAgent" : ["Windows"],
+  "description" : {
+    "fr" : "Remonte le contenu d'un fichier précis",
+    "en" : "Retrieve content of indicated file"
+  }
+}
