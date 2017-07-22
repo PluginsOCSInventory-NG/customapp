@@ -10,7 +10,8 @@ text = file.ReadAll
 file.Close
 
 
-Wscript.Echo "<CUSTOMAPP>"
-Wscript.Echo "<PATH>" & path & "</PATH>"
-Wscript.Echo "<TEXT>" & text & "</TEXT>"
-Wscript.Echo "</CUSTOMAPP>"
+Wscript.Echo _
+    "<CUSTOMAPP>" & VbCrLf &_
+    "<PATH>" & path & "</PATH>" & VbCrLf &_
+    "<TEXT>" & text & "</TEXT>" & VbCrLf &_
+    "</CUSTOMAPP>"
