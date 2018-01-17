@@ -1,6 +1,6 @@
 'Author: Valentin DEVILLE
 
-path = "C:\Users\Gilles\Documents\custom.txt"
+path = "C:\xxx\custom.txt"
 
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set file = fso.OpenTextFile (path, 1)
