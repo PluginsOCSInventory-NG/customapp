@@ -1,16 +1,16 @@
 '----------------------------------------------------------
 ' Plugin for OCS Inventory NG 2.x
-' Script :		
-' Version :		1.00
-' Date :		
+' Script :		Retrieve content of specific file
+' Version :		1.01
+' Date :		20/01/2018
 ' Author :		Valentin DEVILLE
 '----------------------------------------------------------
 ' OS checked [X] on	32b	64b	(Professionnal edition)
 '	Windows XP		[ ]
-'	Windows Vista	[ ]	[ ]
-'	Windows 7		[ ]	[ ]
-'	Windows 8.1		[ ]	[ ]
-'	Windows 10		[ ]	[ ]
+'	Windows Vista	[X]	[X]
+'	Windows 7		[X]	[X]
+'	Windows 8.1		[X]	[X]	
+'	Windows 10		[X]	[X]
 '	Windows 2k8R2		[ ]
 '	Windows 2k12R2		[ ]
 '	Windows 2k16		[ ]
@@ -19,7 +19,8 @@
 ' ---------------------------------------------------------
 On Error Resume Next
 
-path = "C:\Users\Gilles\Documents\custom.txt"
+' Replace the path between quotes with your target file
+path = "C:\xxx\custom.txt"
 
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set file = fso.OpenTextFile (path, 1)
