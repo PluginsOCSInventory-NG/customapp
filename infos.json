@@ -3,6 +3,8 @@
   "author" : ["Valentin DEVILLE"],
   "contributor" : [],
   "supportedAgent" : ["Windows"],
+  "version" : "1.0",
+  "licence" : "GPLv2",
   "description" : {
     "fr" : "Remonte le contenu d'un fichier précis",
     "en" : "Retrieve content of indicated file"
